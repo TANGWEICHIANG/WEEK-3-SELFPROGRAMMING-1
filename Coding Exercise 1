@@ -1,0 +1,44 @@
+package shapeComputation;
+
+public class RetangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length, width, area, perimeter;
+		
+		length = 120.37;
+		width = 60.28;
+		area = length * width;
+		perimeter = (length*2) + (width*2);
+		
+		System.out.printf("The area is %f\n", area);
+		System.out.printf("The perimeter is %f\n", perimeter);
+	}
+
+}
+
+
+package shapeComputation;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius, height, surfaceArea, baseArea, volume;
+		final double PI = 3.14159265;
+		
+		radius = 4.5;
+		height = 25;
+		surfaceArea = (2 * PI * radius * height) + (2 * PI * (radius * radius));
+		baseArea = PI * (radius * radius);
+		volume = baseArea * height;
+		
+		System.out.print("The surface area is "); 
+		System.out.println(surfaceArea); 
+		System.out.print("The base area is ");
+		System.out.println(baseArea);
+		System.out.print("The volume is ");
+		System.out.println(volume);
+	}
+
+}
