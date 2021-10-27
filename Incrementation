@@ -1,0 +1,25 @@
+package SelfProgramming;
+
+public class Increment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int m, n, a, b;
+				
+		m = 4;
+		n = 4;
+		a = 3 * m++;
+		b = 3 * ++n;
+
+				
+		System.out.println("The a is " + a);
+		System.out.println("The m is " + m);
+		System.out.printf("\n");
+		System.out.println("The b is " + b);
+		System.out.println("The n is " + n);
+				
+	}
+
+}
+	
+
