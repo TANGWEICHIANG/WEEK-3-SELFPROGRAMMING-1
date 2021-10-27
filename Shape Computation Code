@@ -1,0 +1,47 @@
+package SelfProgramming;
+
+public class ConeComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius, height, surfaceArea, baseArea, volume;
+		
+		//surface area formula = πrsqrt(r+h2+r2)
+		// base area formula = πr²
+		//volume = πr²
+		radius = 5;
+		height = 10.5;
+		surfaceArea = Math.PI * radius * (radius + (Math.sqrt(radius*radius+height*height)));
+		baseArea = Math.PI * (radius * radius);
+		volume = baseArea * height;
+		
+		System.out.print("The surface area is "); 
+		System.out.println(surfaceArea); 
+		System.out.print("The base area is ");
+		System.out.println(baseArea);
+		System.out.print("The volume is ");
+		System.out.println(volume);
+	}
+
+}
+
+package SelfProgramming;
+
+public class CuboidComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double l, h, sqA, rcA, volume;
+		
+		l = 70;
+		h = 40;
+		sqA = l * l;
+		rcA = l * h;
+		volume = l * l * h;
+		
+		System.out.printf("Square area = %f\n", sqA);
+		System.out.printf("Rectangle area = %f\n", rcA);
+		System.out.printf("Volume = %f\n", volume);
+	}
+
+}
