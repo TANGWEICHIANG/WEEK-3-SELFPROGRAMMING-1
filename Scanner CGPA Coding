@@ -45,7 +45,7 @@ public class Exercise2 {
 		
 		System.out.println("Name : " +name);
 		System.out.println("Age : " +age);
-		System.out.println("Your CGPA is " +cgpa);
+		System.out.printf("Your CGPA is %.2f\n", cgpa);
 
 	}
 
