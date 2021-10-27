@@ -1,0 +1,55 @@
+package numericalData;
+
+import java.util.Scanner;
+public class Exercise2 {
+	
+	private static Scanner sc;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		int age;
+		char subject1 = 0;
+		double mark1;
+		char subject2 = 0;
+		double mark2;
+		char subject3 = 0;
+		double mark3;
+		char subject4 = 0;
+		double mark4;
+		double cgpa;
+
+		
+		sc = new Scanner(System.in);
+		System.out.println("Enter your name : ");
+		name = sc.nextLine();
+		System.out.println("Enter your age : ");
+		age = sc.nextInt();
+		System.out.println("Please enter first subject : ");
+		subject1 = sc.next().charAt(subject1);
+		System.out.println("Please enter first subject marks : ");
+		mark1 = sc.nextDouble();
+		System.out.println("Please enter second subject : ");
+		subject2 = sc.next().charAt(subject2);
+		System.out.println("Please enter second subject marks : ");
+		mark2 = sc.nextDouble();
+		System.out.println("Please enter third subject : ");
+		subject3 = sc.next().charAt(subject3);
+		System.out.println("Please enter third subject marks : ");
+		mark3 = sc.nextDouble();
+		System.out.println("Please enter fourth subject : ");
+		subject4 = sc.next().charAt(subject4);
+		System.out.println("Please enter fourth subject marks : ");
+		mark4 = sc.nextDouble();
+	
+		cgpa = (mark1 + mark2 + mark3 + mark4)/4;
+		
+		System.out.println("Name : " +name);
+		System.out.println("Age : " +age);
+		System.out.println("Your CGPA is " +cgpa);
+
+	}
+
+		
+}
+
+
