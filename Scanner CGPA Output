@@ -1,0 +1,23 @@
+Enter your name : 
+wc
+Enter your age : 
+20
+Please enter first subject : 
+PA
+Please enter first subject marks : 
+2.67
+Please enter second subject : 
+EKO
+Please enter second subject marks : 
+3.67
+Please enter third subject : 
+PP
+Please enter third subject marks : 
+3.00
+Please enter fourth subject : 
+ICT
+Please enter fourth subject marks : 
+4.00
+Name : wc
+Age : 20
+Your CGPA is 3.335
